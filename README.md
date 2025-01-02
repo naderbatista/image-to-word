@@ -27,14 +27,12 @@ Certifique-se de que o Python está instalado na sua máquina.
 Você pode baixar e instalar o Python aqui.
 Crie um ambiente virtual (opcional, mas recomendado):
 
-bash
 python -m venv venv
 source venv/bin/activate  # Para Linux/Mac
 .\venv\Scripts\activate   # Para Windows
 Instale os pacotes necessários usando o arquivo requirements.txt:
 
 Execute o comando para instalar os pacotes:
-bash
 pip install -r requirements.txt
 Instale o Tesseract OCR:
 
@@ -42,7 +40,6 @@ Baixe o Tesseract para sua máquina:
 
 Tesseract para Windows
 Linux/Mac: Instale via terminal com:
-bash
 sudo apt update && sudo apt install tesseract-ocr
 Configure o caminho do Tesseract no código Python:
 
@@ -54,7 +51,6 @@ pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tessera
 Coloque suas imagens na pasta imagens (ex.: imagem1.jpg, imagem2.png).
 
 Execute o script no terminal:
-bash
 python script.py
 Os documentos gerados serão salvos na pasta resultado.
 
