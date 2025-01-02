@@ -34,8 +34,7 @@ source venv/bin/activate  # Para Linux/Mac
 .\venv\Scripts\activate   # Para Windows
 Instale os pacotes necessários usando o arquivo requirements.txt:
 
-Primeiro, crie um arquivo requirements.txt com o seguinte conteúdo:
-Copiar código
+requirements:
 pytesseract
 Pillow
 python-docx
