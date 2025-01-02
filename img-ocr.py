@@ -64,8 +64,8 @@ def process_images_in_folder(input_folder, output_folder, interval=5):
 
 def main():
     # Caminho da pasta de entrada (imagens) e saída (resultados)
-    input_folder = r"C:\Users\NADER\Desktop\Arquivos\Projetos-Python\imagem-ocr\imagens"
-    output_folder = r"C:\Users\NADER\Desktop\Arquivos\Projetos-Python\imagem-ocr\resultado"
+    input_folder = r"C:\caminho-do-arquivo\imagem-ocr\imagens"
+    output_folder = r"C:\caminho-do-arquivo\imagem-ocr\resultado"
     
     # Intervalo entre processamentos (em segundos)
     interval = 5  # Ajuste conforme necessário
