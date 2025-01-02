@@ -12,6 +12,7 @@ Este projeto utiliza OCR (Reconhecimento Óptico de Caracteres) para extrair tex
 💡 Estrutura clara e reutilizável para projetos de OCR e manipulação de texto.
 
 ⚙️ Tecnologias Utilizadas:
+
 🐍 Python
 🖼️ Pillow (PIL): Manipulação de imagens.
 🔍 Pytesseract: OCR para extração de texto.
